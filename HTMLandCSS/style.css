@@ -153,3 +153,39 @@ body
     background-size: cover;
     background-attachment: fixed;
 }
+
+footer
+{
+    font-family: "Quicksand", sans-serif;
+    padding: 20px;
+    width: 69%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    height: fit-content;
+    color: white;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.footerdiv1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerdiv
+{
+    padding: 0px 5px 0px;
+}
+#mana
+{
+    text-align: center;
+}
