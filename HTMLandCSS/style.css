@@ -1,11 +1,11 @@
 .header
 {
-    width: 98.5%;
-    background-color: rgba(255, 255, 255, 0.507);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
     height: 5.5rem;
-    margin-left: 0%;
-    margin-right: 0%;
     position: fixed;
+    top: 0;
+    right: 0;
     font-family: "Quicksand", sans-serif;
     font-weight: 620;
     font-style: normal;
@@ -13,8 +13,8 @@
     font-size: 3rem;
     font-weight: bold;
     backdrop-filter: blur(4px);
-    color: rgb(15, 12, 12);
-    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    z-index: 999;
 }
 
 .heading_font
@@ -31,10 +31,53 @@
     padding-top: 1px;
 }
 
+.summercollections
+{
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Quicksand", sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    width: max-content;
+    margin: auto;
+    margin-top: 6rem;
+    width: 25rem;
+    padding: 1px;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+}      
+.summer-text
+{
+    margin: 7px;
+}
+
+.container1
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 25rem;
+    margin: auto;
+    margin-top: 0.55rem;
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    display: flex;
+}
+.pro
+{
+    background-color: rgba(255, 255, 255, 0.3);
+    max-width: fit-content;
+    margin: 1rem 1rem 1rem 1.5rem;
+    padding: 1rem;
+    border-radius: 20px;;
+}
+#img001
+{
+    max-height: 16rem;
+    border-radius: 15px;
+}
 body
 {
-    background-image: url("https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-image: url("https://images.pexels.com/photos/1309432/pexels-photo-1309432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
     background-size: cover;
-    
 }
