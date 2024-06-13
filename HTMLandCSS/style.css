@@ -3,9 +3,8 @@
     width: 98.5%;
     background-color: rgba(255, 255, 255, 0.507);
     height: 5.5rem;
-    margin-top: -1rem;
     margin-left: 0%;
-    margin-right: -100px;
+    margin-right: 0%;
     position: fixed;
     font-family: "Quicksand", sans-serif;
     font-weight: 620;
@@ -16,13 +15,20 @@
     backdrop-filter: blur(4px);
     color: rgb(15, 12, 12);
     border-radius: 10px;
-    display: block;
 }
 
 .heading_font
 {
     margin: 0%; 
-    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+.tagline
+{
+    font-size: 0.8rem;
+    margin-top: -9px;
+    padding-top: 1px;
 }
 
 body
