@@ -159,6 +159,13 @@
     font-size: 15px;
     padding: 5px;
     background-color:rgba(161, 161, 161, 0.849);
+    transition: ease,0.5s;
+    border: none;
+}
+
+.button:hover
+{
+    background-color: aquamarine;
 }
 body
 {
