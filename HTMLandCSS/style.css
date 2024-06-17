@@ -152,7 +152,7 @@
 {
     font-family: "Quicksand", sans-serif;
     color: rgb(0, 0, 0);
-    backdrop-filter: blur();
+    backdrop-filter: blur(10px);
     width: 100%;
     margin: 4px;
     border-radius: 10px;
