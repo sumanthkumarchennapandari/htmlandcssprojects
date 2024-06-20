@@ -1,7 +1,15 @@
 let boxes = document.querySelectorAll(".box");
 let resetbtn = document.querySelector(".Resetbutton");
+let newGamebtn = document.querySelector('.newgamebtn');
+let ms = document.querySelector(".msg");
+let msg = document.querySelector(".msgg");
 
 let turn0 = true;//palyerO
+
+const showWinner = (winner) => {
+    msg .innerHTML=`Congratulations, Winner is ${winner} `;
+    msgg.classList.remove("hide");
+}
 
 const winPatterns = [
     [0,1,2],
@@ -48,7 +56,7 @@ const checkWinner = () =>
                     {
                         if(pos0val === pos1val && pos1val === pos2val)
                             {
-                                //alert(`Winner is ${pos0val}`);
+                                showWinner(pos0val);
                             }
                     }
             }
